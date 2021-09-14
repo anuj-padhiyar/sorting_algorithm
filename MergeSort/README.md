@@ -16,4 +16,4 @@ Worst Case => O(n log n)<br>
 Average Case => O(n log n)<br>
 Best Case => O(n log n)<br><br>
 
-`space complexity` => O(1)
+`space complexity` => O(n)
