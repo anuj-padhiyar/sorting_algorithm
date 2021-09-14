@@ -8,9 +8,9 @@ void swap(int* a,int *b){
 
 void bubbleSort(int array[],int n){
     int i,j;
-    for(i = 0; i<n; i++){  
-        for(j = i+1; j<n; j++){  
-            if(array[j] < array[i])
+    for(i=0;i<n;i++){  
+        for(j=i+1;j<n;j++){  
+            if(array[j]<array[i])
                 swap(&array[i],&array[j]);
         }   
     }
@@ -27,6 +27,7 @@ int main(){
         scanf("%d",&array[i]);
     
     bubbleSort(array,n);
+
     printf("Sorted elements: ");
     for(i=0;i<n;i++){
         printf("%d ",array[i]);
