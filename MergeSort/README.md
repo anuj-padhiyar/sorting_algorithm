@@ -1,5 +1,5 @@
-# Bubble Sort<br>
-In Bubble sort, Each element of the array is compared with its adjacent(basically next) element.Bubble sort are contains N-1 pass if ot have N elements.
+# Merge Sort<br>
+This Algorithm Use Devide And Concure Method For Sorting Array.In Merge Sort, there are two function used named mergeSort and merge.mergeSort function devide array in two arrays and then it call merge function. merge function takes values from mergeSort function and merge array along with sorting elements.
 <hr>
 
 `Input`<br>
@@ -12,8 +12,8 @@ Ouptut Contains One Line With Sorted Array
 
 
 `Time Complexity`<br>
-Worst Case => O(n^2)<br>
-Average Case => O(n^2)<br>
-Best Case => O(n)<br><br>
+Worst Case => O(n log n)<br>
+Average Case => O(n log n)<br>
+Best Case => O(n log n)<br><br>
 
 `space complexity` => O(1)
