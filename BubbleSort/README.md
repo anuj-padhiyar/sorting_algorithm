@@ -12,8 +12,8 @@ Ouptut Contains One Line With Sorted Array
 
 
 `Time Complexity`<br>
-Worst Case(Elements Are Reversed Sorted) => O(n^2)<br>
+Worst Case => Elements Are Reversed Sorted => O(n^2)<br>
 Average Case => O(n^2)<br>
-Best Case(Elements Are Already Sorted) => O(n)<br><br>
+Best Case => Elements Are Already Sorted => O(n)<br><br>
 
-`space complexity` => O(1)
+`space Complexity` => O(1)
