@@ -1,2 +1,2 @@
 # sorting_algorithm
-Sorting Alogrithms
+This Repository Contains Sorting Algorithm In C Language.
