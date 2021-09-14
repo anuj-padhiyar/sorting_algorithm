@@ -24,8 +24,9 @@ void merge(int array[],int left,int mid,int right){
     while(i<n1)
         array[k++] = L[i++];
     while(j<n2)
-        array[k++] = L[j++];
+        array[k++] = R[j++];
 }
+
 void mergeSort(int array[],int left,int right){
     if(left>=right)
         return;
