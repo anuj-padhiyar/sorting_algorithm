@@ -1,5 +1,5 @@
-# Bubble Sort<br>
-In Bubble sort, Each element of the array is compared with its adjacent(basically next) element.Bubble sort are contains N-1 pass if ot have N elements.
+# Quick Sort<br>
+This Algorithm Use Devide And Concure Method For Sorting Array.In Quick Sort, there are two function used named quickSort and partition.quickSort function create virtual partition of one array and it call partition function for that. partition function choose pivot from array and return partition index according to that pivot.After partiton, mergeSort function recursively sort left and right side sub-array.
 <hr>
 
 `Input`<br>
@@ -12,8 +12,8 @@ Ouptut Contains One Line With Sorted Array
 
 
 `Time Complexity`<br>
-Worst Case => O(n^2)<br>
-Average Case => O(n^2)<br>
-Best Case => O(n)<br><br>
+Worst Case => Elements are sorted => O(n^2)<br>
+Average Case => O(n log n)<br>
+Best Case => the partition algorithm divides the array in two subarrays with equal size => O(n log n)<br><br>
 
-`space complexity` => O(1)
+`space complexity` => O(n)
