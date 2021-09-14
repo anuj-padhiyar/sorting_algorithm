@@ -1,4 +1,4 @@
-#Bubble Sort
+# Bubble Sort<br>
 In Bubble sort, Each element of the array is compared with its adjacent(basically next) element.Bubble sort are contains N-1 pass if ot have N elements.
 
 <br><br>
