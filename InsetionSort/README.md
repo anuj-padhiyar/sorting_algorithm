@@ -2,7 +2,7 @@
 This is an in-place comparison-based sorting algorithm.Here, a sub-list is maintained which is always sorted. 
 For example, the lower part of an array is maintained to be sorted.
 An Element which we have to insert in that sorted sub-list,has to find appropriate location.
-It Have to method like Insetion With Swap and Insertion With shift.
+It Have two method, Insetion With Swap and Insertion With shift.
 <hr>
 
 `Input`<br>
